@@ -9,10 +9,10 @@ INSTALLATION PROCEDURE
 - Activate Guardium GBDI "Full SQL Nodep" Datamart
 - git clone CT22_EK_FullSQL
 - update the param_data.json file to your needs/set up
-- Prepare the A_COLLECTORS.csv file containing collector metadata (only the column "Collectors" containig the Collector shortname is needed. The rest is Metadata specific to your company and IT environment)
+- Prepare the A_COLLECTORS.csv file containing collector metadata (only the column "Collectors" containig the Collector shortname is needed. The rest is Metadata specific to your company and IT environment)  - Example provided -
 - Upload the A_COLLECTORS.csv as a_collectors
 - cron the execution of the python program BUFF_Enrich.py
- - Example provided
+
 Deletion of specific records
 ----------------------------
 
