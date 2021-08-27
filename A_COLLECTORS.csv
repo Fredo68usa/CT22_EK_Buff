@@ -1,0 +1,4 @@
+Collectors,IP,Server Env,DB Type,FO,Main Application,Version,FQDN,CM
+Coll1,172.21.68.81,NON PROD,MONGODB,Primary,,11.2,Coll1.ct22.com,CM1
+Coll2,172.21.68.83,PROD,MSSQL,Primary,,11.2,Coll2.ct22.com,CM1
+Coll3,172.21.68.84,NON PROD,SYBASE,Primary,,11.2,Coll3.ct22.com,CM1
