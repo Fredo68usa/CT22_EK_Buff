@@ -1,0 +1,6 @@
+$ cat param_data.json
+{
+"path": "../inputData/",
+"pathProcessed" :"../Processed/",
+"index" : "ct22-enrich_buff"
+}
