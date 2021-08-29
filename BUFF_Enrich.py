@@ -1,4 +1,3 @@
-$ cat BUFF_Enrich.py
 import json
 from datetime import datetime
 import time
@@ -117,6 +116,3 @@ if __name__ == '__main__':
     print ('Nbr of Docs Processed' , doc_count_total)
     os.system('rm -f ' + p1.path + 'Buff_Enrich_In_Progress')
     print("End BUFF Enrichment")
-(env)
-fpetit@sdcdiapplnx9160 software
-$
