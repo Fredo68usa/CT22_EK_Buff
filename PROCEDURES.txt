@@ -1,7 +1,7 @@
 INSTALLATION PROCEDURE
 ----------------------
 
-- Linux OS prefered
+- Linux OS (RHEL prefered 7 & above )
 - Docker (optional)
 - ElasticSearch (optionally on Docker)
 - Kibana (optionally on Docker)
