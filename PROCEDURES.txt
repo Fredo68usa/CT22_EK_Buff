@@ -36,3 +36,7 @@ sudo docker run -d --name elasticsearch --net CT22DAMnetwork -p 9200:9200 -p 930
 Starting Kibana
 docker pull kibana:7.12.1
 sudo docker run -d --name kibana --net CT22DAMnetwork -p 5601:5601 kibana:7.12.1
+
+To Access Kibana
+----------------
+http://<yourIP>:5601/app/home
