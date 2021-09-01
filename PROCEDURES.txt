@@ -23,3 +23,14 @@ POST /enriched_full_sql/_delete_by_query?pretty
       "doc.Confidence Level": "20"
     }
   }
+
+Docker Set up
+-------------
+
+sudo docker network create CT22DAMnetwork
+
+Starting ElasticSearch
+sudo docker run -d --name elasticsearch --net CT22DAMnetwork -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:7.12.1
+
+Starting Kibana
+sudo docker run -d --name kibana --net CT22DAMnetwork -p 5601:5601 kibana:7.12.1
