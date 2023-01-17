@@ -1,0 +1,11 @@
+[ELASTIC]
+cloud_id = 
+user = elastic
+password = 
+host = 'xxxx.kb.us-central1.gcp.cloud.es.io'
+
+[DEFAULT]
+cloud_id = 
+apikey_id = 
+apikey_key = 
+
